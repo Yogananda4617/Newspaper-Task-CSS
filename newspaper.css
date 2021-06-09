@@ -1,0 +1,45 @@
+#page{
+    background-color: Gainsboro;
+    padding: 20px;
+    margin:20px;
+    width:900px;
+}
+h1{
+    font-size:70px;
+    text-align:center;
+    margin: 0%;
+    padding:0px;
+}
+h3{
+    text-align: center;
+    margin: 0px;
+    padding:0px;
+}
+.line{ /*creat 3 equal columns that float next to each other*/
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+    margin:0px;
+  }
+  #center{
+    text-align: center;
+  }
+  #right{
+    text-align:right;
+  }
+  .first:after { /* clear floats after the columns*/
+    content: "";
+    display: table;
+    clear: both;
+  } 
+  
+.body{
+    display:flex;
+}
+.border{
+    background-color:lightgrey;
+}
+div2{
+    width:125%;
+    text-align: justify;
+}
